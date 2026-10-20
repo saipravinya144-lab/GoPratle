@@ -97,7 +97,7 @@ export default function Home() {
     };
 
     try {
-      const response = await fetch("http://localhost:5000/api/events", {
+      const response = await fetch("https://gopratle-backend-dncq.onrender.com/api/events?utm_source=chatgpt.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
